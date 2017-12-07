@@ -3,7 +3,39 @@
 
 ## About ##
 
-Thsi template is used by developer at Mirounga
+This template is used by developer at Mirounga
+
+## Features ##
+
+By default, this project template includes:
+
+Wagtail:
+
+- Wagtail 1.13
+
+Migrations:
+
+- Django built-in migrations
+
+Caching:
+
+- python-memcached
+
+Admin:
+
+- Includes django-debug-toolbar for development and production (enabled for superusers)
+
+## How to use this project template to create your project ##
+
+- Create your working environment and virtualenv
+- Install Django 1.11
+- pip install Django 1.11
+- $ django-admin.py startproject --template https://github.com/mga-team-django/wagtail-template/archive/master.zip --extension py,html,md,rst projectname
+- $ cd projectname
+- By default dev environment use SQLite database
+- $ pip install -r dev-requirements.txt
+- $ python manage.py migrate
+- $ python manage.py runserver
 
 {% endif %}
 # The {{ project_name|title }} Project #
