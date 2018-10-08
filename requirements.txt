@@ -1,2 +1,2 @@
-Django==2.0.6
-wagtail==2.1
+Django==2.1.2
+wagtail==2.2.2
