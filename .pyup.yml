@@ -5,4 +5,4 @@ schedule: every week
 branch: master
 assignees: kryskool
 branch_prefix: pyup/
-label_prs: update
+label_prs: dependencies 
