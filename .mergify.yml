@@ -23,7 +23,9 @@ pull_request_rules:
       - label=dependencies
     actions:
       merge:
-        method: merge
+        method: squash
+        strict: true
+        strict_method: rebase
   - name: automatic merge for dependabot pull requests
     conditions:
       - author~=^dependabot(|-preview)\[bot\]$
@@ -31,4 +33,6 @@ pull_request_rules:
       - label=dependencies
     actions:
       merge:
-        method: merge
+        method: squash
+        strict: true
+        strict_method: rebase
