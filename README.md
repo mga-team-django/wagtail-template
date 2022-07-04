@@ -1,5 +1,5 @@
 {% if False %}
-# Django 1.11 Base Template #
+# Django 4.x.y Base Template #
 
 ## About ##
 
@@ -11,7 +11,7 @@ By default, this project template includes:
 
 Wagtail:
 
-- Wagtail 1.13
+- Wagtail 3.x.y
 
 Migrations:
 
@@ -28,8 +28,7 @@ Admin:
 ## How to use this project template to create your project ##
 
 - Create your working environment and virtualenv
-- Install Django 1.11
-- pip install Django 1.11
+- pip install -r requirements.txt
 - $ django-admin.py startproject --template https://github.com/mga-team-django/wagtail-template/archive/master.zip --extension py,html,md,rst projectname
 - $ cd projectname
 - By default dev environment use SQLite database
@@ -46,7 +45,7 @@ Describe your project here.
 
 ## Prerequisites ##
 
-- Python 3.5 recommended
+- Python 3.9 recommended
 - pip
 - virtualenv (virtualenvwrapper is recommended for use during development)
 
