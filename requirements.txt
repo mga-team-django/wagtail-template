@@ -1,2 +1,2 @@
-Django==5.0.7
+Django==5.0.8
 wagtail==6.2
