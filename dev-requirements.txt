@@ -1,5 +1,5 @@
 -r requirements.txt
 django-debug-toolbar==6.1.0
 flake8==7.3.0
-pytest==9.0.0
+pytest==9.0.1
 
