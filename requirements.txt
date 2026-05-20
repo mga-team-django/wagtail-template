@@ -1,2 +1,2 @@
 Django==6.0.5
-wagtail==7.4
+wagtail==7.4.1
