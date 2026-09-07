@@ -1,2 +1,2 @@
-Django==6.1
+Django==6.1.1
 wagtail==8.0
